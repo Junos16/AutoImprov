@@ -6,8 +6,8 @@ This is my first attempt at training an LSTM model that would improvise a jazz s
 I used transcriptions of Charlie Parker's Omnibook to train my model. The .xml transcriptions were available on: [http://repmus.ircam.fr/dyci2/ressources]
 
 Output:
-![Temperature = 0.3 Chord = Yardbird Suite](https://github.com/Junos16/AutoImprov/assets/93246181/447279bb-7085-46c3-ab28-1cbb998055a8)
-
+![Image](https://github.com/Junos16/AutoImprov/assets/93246181/447279bb-7085-46c3-ab28-1cbb998055a8)
+Temperature = 0.3 Chord = Yardbird Suite
 
 The main limitation of this naive approach is that only the chords present in the dataset can be used as input. Also the model does not comprehend the relation between the chords and the notes being played over it. 
 
