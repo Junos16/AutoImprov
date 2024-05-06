@@ -3,6 +3,10 @@
 
 This is my first attempt at training an LSTM model that would improvise a jazz solo over a given chord progression. My model converts the notes and chords in the training data into discrete categories and predicts the notes that would be suitable to be played over the chords provided as input (this would include rests and the quarter-note durations of the rests and notes). An empty lead sheet (containing the chords) is passed as an input alongside a seed containing the first few notes of the solo. 
 
+I used transcriptions of Charlie Parker's Omnibook to train my model. The .xml transcriptions were available on: [http://repmus.ircam.fr/dyci2/ressources]
+
+Output:
+![Temperature = 0.3 Chord = Yardbird Suite](https://github.com/Junos16/AutoImprov/assets/93246181/447279bb-7085-46c3-ab28-1cbb998055a8)
 
 
 The main limitation of this naive approach is that only the chords present in the dataset can be used as input. Also the model does not comprehend the relation between the chords and the notes being played over it. 
